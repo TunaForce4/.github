@@ -72,3 +72,7 @@
 - [포팅 메뉴얼](https://github.com/SSAFY-Sembot/Sembot/blob/develop/exec/%ED%8F%AC%ED%8C%85%EB%A7%A4%EB%89%B4%EC%96%BC.md)
 
 ---
+
+
+
+다양한 이미지, gif, github에서 제공해 주는 태그 등을 활용
