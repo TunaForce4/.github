@@ -12,6 +12,7 @@
   <a href="">홈페이지</a>
   &nbsp; | &nbsp;
   <a href="">Swagger</a>
+   &nbsp; | &nbsp;
   <a href="https://www.notion.so/teamsparta/2402dc3ef5148024a920c918967274c7?source=copy_link">Notion</a>
 </div>
 
