@@ -7,6 +7,8 @@
   <p>🔍 MSA 기반 B2B 물류 관리 및 배송 시스템 🔍</p>
 </div>
 
+<img width="1792" height="1024" alt="image" src="https://github.com/user-attachments/assets/9c2467cc-1df1-4ace-8a85-576941fe3b21" />
+
 
 <br/>
 
