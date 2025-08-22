@@ -4,7 +4,7 @@
 
 <div align="center">
   <h1>TunaHub - 물류 관리 및 배송 시스템</h1>
-  <p>🔍 MSA 기반 B2B 물류 관리 및 배송 시스템 🔍</p>
+  <p>🚚 MSA 기반 B2B 물류 관리 및 배송 시스템 🚚</p>
 </div>
 
 <img width="1792" height="1024" alt="image" src="https://github.com/user-attachments/assets/9c2467cc-1df1-4ace-8a85-576941fe3b21" />
@@ -15,8 +15,8 @@
 <div align="center">
   <a href="">홈페이지</a>
   &nbsp; | &nbsp;
-  <a href="">Swagger</a>
-   &nbsp; | &nbsp;
+  <!-- <a href="">Swagger</a>
+   &nbsp; | &nbsp; -->
   <a href="https://www.notion.so/teamsparta/2402dc3ef5148024a920c918967274c7?source=copy_link">Notion</a>
 </div>
 
@@ -49,7 +49,7 @@
 
 ## <span id="1">🚩 1. 프로젝트 소개</span>
 
-Notion: [프로젝트 노션 링크](https://)
+Notion: [프로젝트 노션 링크](https://www.notion.so/teamsparta/2402dc3ef5148024a920c918967274c7?source=copy_link)
 
 프로젝트에 대한 전반적인 소개를 여기에 적어주세요.
 
@@ -64,11 +64,11 @@ Notion: [프로젝트 노션 링크](https://)
 
 <div align="center">
 
-| <img src="https://img.shields.io/badge/Project_Leader-FF5733" /> | <img src="https://img.shields.io/badge/Tech_Leader-%2300264B" /> | <img src="https://img.shields.io/badge/Documentation_Leader-%2310069F%20" /> | <img src="https://img.shields.io/badge/Design_Leader-blue" /> |
-| :--------------------------------------------------------------: | :--------------------------------------------------------------: | :--------------------------------------------------------------------------: | :-----------------------------------------------------------: |
-|      <img src="https://github.com/" width="120px;" alt=""/>      |      <img src="https://github.com/" width="120px;" alt=""/>      |            <img src="https://github.com/" width="120px;" alt=""/>            |    <img src="https://github.com/" width="120px;" alt=""/>     |
-|           [팀원1 이름](https://github.com/팀원1아이디)           |           [팀원2 이름](https://github.com/팀원2아이디)           |                 [팀원3 이름](https://github.com/팀원3아이디)                 |         [팀원4 이름](https://github.com/팀원4아이디)          |
-|                            기능1 설명                            |                            기능2 설명                            |                                  기능3 설명                                  |                          기능4 설명                           |
+| <img src="https://img.shields.io/badge/Project_Leader-FF5733" /> | <img src="https://img.shields.io/badge/Documentation_Leader-%2310069F%20" /> |    |    |    |
+| :--------------------------------------------------------------: | :--------------------------------------------------------------: |  :--------------------------------------------------------------: |:--------------------------------------------------------------------------: | :-----------------------------------------------------------: |
+|      <img src="https://github.com/" width="120px;" alt=""/>      |      <img src="https://github.com/" width="120px;" alt=""/>      |      <img src="https://github.com/" width="120px;" alt=""/>      |            <img src="https://github.com/" width="120px;" alt=""/>            |    <img src="https://github.com/" width="120px;" alt=""/>     |
+|           [이다예](https://github.com/dayaelee)           |           [최우탁](https://github.com/legoChoi)           |                 [정성운](https://github.com/Hoody-rj)                 |                 [황선영](https://github.com/dinahland)                 |         [이강혁](https://github.com/GangHyeokLee)          |
+|                             배송 도메인                             |                              상품 / 주문 도메인                             |                            슬랙 알림 / 업체 배송 관리                             |                                  허브 관리                                   |                          Gateway / 유저 / 업체                           |
 
 </div>
 
@@ -81,7 +81,7 @@ Notion: [프로젝트 노션 링크](https://)
 
 ## <span id="3">📅 3. 개발 일정</span>
 
-> 프로젝트 개발 기간: 202n.00.00 - 202n.00.00 (n일)
+> 프로젝트 개발 기간: 2025.08.11 - 2025.08.23 (13일)
 
 <br>
 
@@ -94,31 +94,23 @@ Notion: [프로젝트 노션 링크](https://)
 
 ### Environment
 
-![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white)![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 
-### Config
 
-![Yarn](https://img.shields.io/badge/yarn-%232C8EBB.svg?style=for-the-badge&logo=yarn&logoColor=white)
 
 ### Development
 
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)![React Query](https://img.shields.io/badge/-React%20Query-FF4154?style=for-the-badge&logo=react%20query&logoColor=white)![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white)![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)![Styled Components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)![Webpack](https://img.shields.io/badge/webpack-%238DD6F9.svg?style=for-the-badge&logo=webpack&logoColor=black)
+![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
+<br>![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
 
-### Project Management
-
-![Github Issues]() ![Github Pull requests]()
 
 ### Design
 
-![Pigma]()
-
-### Hosting
-
-![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
+![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 
 ### Communication
 
-![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white)![Discord](https://img.shields.io/badge/Discord-2D8CFF?style=for-the-badge&logo=Discord&logoColor=white)
+![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white)![Slack](https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white)![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white)
 
 <br>
 
@@ -216,6 +208,26 @@ Notion: [프로젝트 노션 링크](https://)
 
 ```
 
+
+> 배송 도메인 디렉토리 구조
+
+```
+📂 App
+├── 📂 src
+│   ├── 📂 components      # 컴포넌트 관련 파일
+│   ├── 📂 pages           # 페이지 파일
+│   ├── 📂 redux           # Redux 상태 관리 파일
+│   ├── 📂 utils           # 유틸리티 파일
+│   └── 📄 App.js          # 메인 App 컴포넌트
+├── 📂 public
+│   ├── 📄 index.html      # HTML 엔트리 파일
+│   └── 📄 favicon.ico     # 사이트 아이콘
+└── 📄 package.json        # 프로젝트 종속성 및 설정 파일
+
+```
+
+
+
 <br>
 
 <!-- Top Button -->
@@ -223,7 +235,22 @@ Notion: [프로젝트 노션 링크](https://)
 
 <br>
 
-## <span id="8">8. 💻 주요 기능 소개</span>
+## <span id="8">8. 💻 인프라 구조도</span>
+
+
+<!-- Top Button -->
+<p style='background: black; width: 32px; height: 32px; border-radius: 50%; display: flex; justify-content: center; align-items: center; margin-left: auto;'><a href="#top" style='color: white; '>▲</a></p>
+
+
+## <span id="9">9. 💻 ERD 설계</span>
+
+
+<!-- Top Button -->
+<p style='background: black; width: 32px; height: 32px; border-radius: 50%; display: flex; justify-content: center; align-items: center; margin-left: auto;'><a href="#top" style='color: white; '>▲</a></p>
+
+
+
+## <span id="10">10. 💻 주요 기능 소개</span>
 
 프로젝트의 주요 기능을 GIF를 첨부하여 설명해주세요.
 
@@ -252,21 +279,21 @@ Notion: [프로젝트 노션 링크](https://)
 
 <br>
 
-## <span id="9">9. 📄 상세 담당 업무</span>
+## <span id="11">11. 📄 상세 담당 업무</span>
 
-### 1) 팀원1 이름
+### 1) 이강혁
 
-- **🎨 디자인**
+- **🎨 사용자 관리**
 
   - 로고 디자인 및 이미지 제작
 
-- **💻 화면 개발**
+- **💻 Gateway**
 
   - 로그인 화면
   - 검색 화면
   - 채팅 화면
 
-- **🧑‍💻 구현 기능**
+- **🧑‍💻 업체 관리**
 
   - 로딩 페이지
     - 회원가입 후 로그인 모달이 올라오는 로딩페이지
@@ -276,13 +303,13 @@ Notion: [프로젝트 노션 링크](https://)
 - **♻️ 리팩토링**
   - 관련 설명
 
-### 2) 팀원2 이름
+### 2) 최우탁
 
-- **🎨 디자인**
+- **🎨 상품 관리**
 
   - 전체적인 UI 디자인
 
-- **💻 화면 개발**
+- **💻 주문 관리**
 
   - 공통 헤더 네브바
   - 공통 푸터 네브바
@@ -301,6 +328,83 @@ Notion: [프로젝트 노션 링크](https://)
 - **♻️ 리팩토링**
   - 관련 설명
 
+### 3) 황선영
+
+- **🎨 상품 관리**
+
+  - 전체적인 UI 디자인
+
+- **💻 주문 관리**
+
+  - 공통 헤더 네브바
+  - 공통 푸터 네브바
+  - 삭제 / 신고 모달창
+
+- **👩‍💻 구현 기능**
+
+  - 라우터 초기 셋팅
+  - 게시물 등록
+    - 토글 Open, Close에 따라 인풋창 높이 자동 조절
+    - api 전송 한계로 인해 한 공간에 저장하여 보낼 수 있게, 데이터를 연산자로 구분하여 한줄로 전송
+      이미지 추가 및 삭제 가능
+  - 게시글 삭제 / 신고
+    - userId를 통해 유저를 구별하여 타인의 경우 신고 기능, 본인일 경우 삭제 기능 구현
+
+- **♻️ 리팩토링**
+  - 관련 설명
+
+### 4) 이다예
+
+- **🎨 상품 관리**
+
+  - 전체적인 UI 디자인
+
+- **💻 주문 관리**
+
+  - 공통 헤더 네브바
+  - 공통 푸터 네브바
+  - 삭제 / 신고 모달창
+
+- **👩‍💻 구현 기능**
+
+  - 라우터 초기 셋팅
+  - 게시물 등록
+    - 토글 Open, Close에 따라 인풋창 높이 자동 조절
+    - api 전송 한계로 인해 한 공간에 저장하여 보낼 수 있게, 데이터를 연산자로 구분하여 한줄로 전송
+      이미지 추가 및 삭제 가능
+  - 게시글 삭제 / 신고
+    - userId를 통해 유저를 구별하여 타인의 경우 신고 기능, 본인일 경우 삭제 기능 구현
+
+- **♻️ 리팩토링**
+  - 관련 설명
+
+### 5) 정성운
+
+- **🎨 상품 관리**
+
+  - 전체적인 UI 디자인
+
+- **💻 주문 관리**
+
+  - 공통 헤더 네브바
+  - 공통 푸터 네브바
+  - 삭제 / 신고 모달창
+
+- **👩‍💻 구현 기능**
+
+  - 라우터 초기 셋팅
+  - 게시물 등록
+    - 토글 Open, Close에 따라 인풋창 높이 자동 조절
+    - api 전송 한계로 인해 한 공간에 저장하여 보낼 수 있게, 데이터를 연산자로 구분하여 한줄로 전송
+      이미지 추가 및 삭제 가능
+  - 게시글 삭제 / 신고
+    - userId를 통해 유저를 구별하여 타인의 경우 신고 기능, 본인일 경우 삭제 기능 구현
+
+- **♻️ 리팩토링**
+  - 관련 설명
+
+
+
 <br>
 
 <!-- Top Button -->
@@ -308,7 +412,7 @@ Notion: [프로젝트 노션 링크](https://)
 
 <br>
 
-## <span id="10">✨ 10. 주요 코드</span>
+## <span id="12">✨ 12. 주요 코드</span>
 
 <details>
 <summary> 주요 코드에 대한 설명을 입력하세요. </summary>
@@ -345,7 +449,7 @@ Notion: [프로젝트 노션 링크](https://)
 
 <br>
 
-## <span id="11">🚦 11. 트러블 슈팅</span>
+## <span id="13">🚦 13. 트러블 슈팅</span>
 
 <details>
 <summary> 트러블 슈팅을 입력하세요. </summary>
@@ -368,7 +472,7 @@ Notion: [프로젝트 노션 링크](https://)
 
 <br>
 
-## <span id="12">12. 📝 프로젝트 회고</span>
+## <span id="14">14. 📝 프로젝트 회고</span>
 
 프로젝트 진행 후 느낀 점과 개선할 점을 적어주세요. 블로그에 작성하셨다면 블로그 링크를 첨부해주세요.
 
@@ -379,7 +483,7 @@ Notion: [프로젝트 노션 링크](https://)
 
 <br>
 
-## <span id="13">13. 🛠️ 시작 가이드</span>
+<!-- ## <span id="15">15. 🛠️ 시작 가이드</span>
 
 ### Installation
 
@@ -394,10 +498,8 @@ $ yarn
 $ yarn dev
 ```
 
-<br>
+<br> -->
 
-<!-- Top Button -->
-<p style='background: black; width: 32px; height: 32px; border-radius: 50%; display: flex; justify-content: center; align-items: center; margin-left: auto;'><a href="#top" style='color: white; '>▲</a></p>
 
 
 참고링크(추후 삭제 예정)
