@@ -236,6 +236,7 @@ Notion: [프로젝트 노션 링크](https://www.notion.so/teamsparta/2402dc3ef5
 <br>
 
 ## <span id="8">8. 💻 인프라 구조도</span>
+![인프라 설계 (1)](https://github.com/user-attachments/assets/38608894-f9ec-45b5-bdd1-d9123bdebf57)
 
 
 <!-- Top Button -->
