@@ -245,6 +245,7 @@ Notion: [프로젝트 노션 링크](https://www.notion.so/teamsparta/2402dc3ef5
 
 ## <span id="9">9. 💻 ERD 설계</span>
 
+<img width="3080" height="2522" alt="MSA-DeliverySystem" src="https://github.com/user-attachments/assets/49ce7366-15aa-4df1-8baf-9a269dc86d7e" />
 
 <!-- Top Button -->
 <p style='background: black; width: 32px; height: 32px; border-radius: 50%; display: flex; justify-content: center; align-items: center; margin-left: auto;'><a href="#top" style='color: white; '>▲</a></p>
