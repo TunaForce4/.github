@@ -63,6 +63,10 @@ Notion: [프로젝트 노션 링크](https://www.notion.so/teamsparta/2402dc3ef5
 ## <span id="2">🏃 2. 팀원 소개</span>
 
 <div align="center">
+<img width="420" height="420" alt="172256008" src="https://github.com/user-attachments/assets/7853db03-4ce0-4715-9d5b-30e2299b87f4" />
+<img width="360" height="360" alt="185685157" src="https://github.com/user-attachments/assets/59a4a457-c0e4-490a-a004-7e54c8ae47d6" />
+<img width="360" height="360" alt="185685157" src="https://github.com/user-attachments/assets/77ada5b7-1fdd-4ccf-b379-ecebb0f3f756" />
+<img width="420" height="420" alt="33851859" src="https://github.com/user-attachments/assets/ab692188-3580-4bee-aa0a-c8aeba36c322" />
 
 | <img src="https://img.shields.io/badge/Project_Leader-FF5733" /> | <img src="https://img.shields.io/badge/Documentation_Leader-%2310069F%20" /> |    |    |    |
 | :--------------------------------------------------------------: | :--------------------------------------------------------------: |  :--------------------------------------------------------------: |:--------------------------------------------------------------------------: | :-----------------------------------------------------------: ||  <img width="460" height="460" alt="57593704" src="https://github.com/user-attachments/assets/d823ce17-0831-4fa5-ad2f-913d9e5f947e" />  | |    | |    | |    | |    | 
