@@ -47,11 +47,23 @@
 
 <br />
 
-## <span id="1">🚩 1. 프로젝트 소개</span>
+## <span id="1">🚩 1. 프로젝트 소개 : 물류 관리 및 배송 시스템 </span>
 
-Notion: [프로젝트 노션 링크](https://www.notion.so/teamsparta/2402dc3ef5148024a920c918967274c7?source=copy_link)
 
-프로젝트에 대한 전반적인 소개를 여기에 적어주세요.
+본 프로젝트는 MSA(Microservices Architecture) 기반의 국내 물류 관리 및 배송 시스템을 개발하는 것을 목표로 합니다.
+스파르타 물류라는 가상의 물류 회사를 사례로, 허브(물류센터)와 업체(생산/수령 업체) 간의 물류 이동 전 과정을 디지털화하고 자동화된 관리 기능을 제공합니다.
+
+### 🚛 서비스 시나리오
+
+- 허브 관리: 전국 17개 주요 도시에 허브(물류센터)를 구축 및 관리
+- 업체 관리: 각 허브에 소속된 생산업체·수령업체 등록 및 관리
+- 배송 프로세스:
+  1. 주문 발생 시 출발 허브에서 목적지 허브로 물품 이동
+  2. 허브 배송 담당자가 경로에 따라 운송
+  3. 최종 목적지 허브에서 업체 배송 담당자가 수령 업체로 전달
+
+- 슬랙 연동: 배송 담당자에게 매일 아침 자동으로 당일 배송지와 경로를 안내
+- 메시징 시스템 연계(Kafka, RabbitMQ): 일부 서비스 간 통신을 메시징 기반으로 전환하여 비동기적 확장성 확보
 
 <br>
 
@@ -61,23 +73,12 @@ Notion: [프로젝트 노션 링크](https://www.notion.so/teamsparta/2402dc3ef5
 <br>
 
 ## <span id="2">🏃 2. 팀원 소개</span>
-![110345442](https://github.com/user-attachments/assets/6f24accf-5a16-4f32-be96-23a15779e85e)
-
 <div align="center">
-<img width="100" height="100" alt="172256008" src="https://github.com/user-attachments/assets/7853db03-4ce0-4715-9d5b-30e2299b87f4" />
-<img width="100" height="100" alt="185685157" src="https://github.com/user-attachments/assets/59a4a457-c0e4-490a-a004-7e54c8ae47d6" />
-<img width="100" height="100" alt="185685157" src="https://github.com/user-attachments/assets/77ada5b7-1fdd-4ccf-b379-ecebb0f3f756" />
-<img width="100" height="100" alt="33851859" src="https://github.com/user-attachments/assets/ab692188-3580-4bee-aa0a-c8aeba36c322" />
-<img width="100" height="100" alt="57593704" src="https://github.com/user-attachments/assets/d823ce17-0831-4fa5-ad2f-913d9e5f947e" /> 
-![110345442](https://github.com/user-attachments/assets/bdd69c55-065a-4d7f-8df6-6b3e8b781d24)
-![110345442](https://github.com/user-attachments/assets/13838a43-008c-4b04-8103-f7eab2ffb7d9)
-
 
 | <img src="https://img.shields.io/badge/Project_Leader-FF5733" /> | <img src="https://img.shields.io/badge/Documentation_Leader-%2310069F%20" /> |    |    |    |
 | :--------------------------------------------------------------: | :--------------------------------------------------------------: |  :--------------------------------------------------------------: |:--------------------------------------------------------------------------: | :-----------------------------------------------------------: |
 |      <img src="https://github.com/" width="120px;" alt=""/>      |      <img src="https://github.com/" width="120px;" alt=""/>      |      <img src="https://github.com/" width="120px;" alt=""/>      |            <img src="https://github.com/" width="120px;" alt=""/>            |    <img src="https://github.com/" width="120px;" alt=""/>     |
-|           <img width="100" height="100" alt="57593704" src="https://github.com/user-attachments/assets/d823ce17-0831-4fa5-ad2f-913d9e5f947e" /> 
-           |           [최우탁](https://github.com/legoChoi)           |                 [정성운](https://github.com/Hoody-rj)                 |                 [황선영](https://github.com/dinahland)                 |         [이강혁](https://github.com/GangHyeokLee)          |
+| <img width="100" height="100" alt="57593704" src="https://github.com/user-attachments/assets/d823ce17-0831-4fa5-ad2f-913d9e5f947e" />|<img width="100" height="100" alt="110345442" src="https://github.com/user-attachments/assets/6f24accf-5a16-4f32-be96-23a15779e85e" /> |<img width="100" height="100" alt="185685157" src="https://github.com/user-attachments/assets/59a4a457-c0e4-490a-a004-7e54c8ae47d6" /> | <img width="100" height="100" alt="172256008" src="https://github.com/user-attachments/assets/7853db03-4ce0-4715-9d5b-30e2299b87f4" /> | <img width="100" height="100" alt="33851859" src="https://github.com/user-attachments/assets/ab692188-3580-4bee-aa0a-c8aeba36c322" /> |
 |           [이다예](https://github.com/dayaelee)           |           [최우탁](https://github.com/legoChoi)           |                 [정성운](https://github.com/Hoody-rj)                 |                 [황선영](https://github.com/dinahland)                 |         [이강혁](https://github.com/GangHyeokLee)          |
 |                             배송 도메인                             |                              상품 / 주문 도메인                             |                            슬랙 알림 / 업체 배송 관리                             |                                  허브 관리                                   |                          Gateway / 유저 / 업체                           |
 
@@ -113,11 +114,14 @@ Notion: [프로젝트 노션 링크](https://www.notion.so/teamsparta/2402dc3ef5
 
 ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
 <br>![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
+<br>![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 
 
-### Design
+### Design & Infra
 
 ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
+
+Zipkin 3.5.1
 
 ### Communication
 
@@ -130,26 +134,50 @@ Notion: [프로젝트 노션 링크](https://www.notion.so/teamsparta/2402dc3ef5
 
 <br>
 
-## <span id="5">❓ 5. 라이브러리 사용 이유</span>
+## <span id="5">❓ 5. 라이브러리 및 외부 API 사용 이유</span>
 
-각 라이브러리의 사용 이유를 설명해주세요.
 
-> React
-
-<br>
-
-> Redux
+> Spring Boot 3.5.4
 
 <br>
 
-> Axios
+> Hibernate 6.6.22
 
+<br>
+
+> JPA 3.5.2
 
 <br>
 
 > Querydsl
 - JPQL의 컴파일 시점 오류 확인 불가
 - 쿼리 가독성과 타입 안정성을 보장하여 유지보수 용이
+
+<br>
+
+> Spring Cloud (Gateway, Eureka) 2025.0.0
+
+<br>
+
+> Spring Security 6.5.2
+
+<br>
+
+> OpenFeign 4.3.0
+
+<br>
+
+> JWT 0.12.3
+
+<br>
+
+> lombok 1.18.38
+
+<br>
+
+> Naver 지도 API
+
+<br>
 
 <!-- Top Button -->
 <p style='background: black; width: 32px; height: 32px; border-radius: 50%; display: flex; justify-content: center; align-items: center; margin-left: auto;'><a href="#top" style='color: white; '>▲</a></p>
@@ -158,17 +186,35 @@ Notion: [프로젝트 노션 링크](https://www.notion.so/teamsparta/2402dc3ef5
 
 ## <span id="6">🤝 6. 컨벤션</span>
 
-### prettier
+### 코드 컨벤션
 
-```json
-{
-  "printWidth": 80,
-  "tabWidth": 2,
-  "singleQuote": true,
-  "trailingComma": "all",
-  "semi": false
-}
-```
+1. 다른 사람이 맡은 코드는 임의로 고치지 말고 꼭 담당자랑 얘기하기
+2. 코드 리팩토링 하기 전에는 리팩토링 담당자가 팀 전체에 공유하기
+3. PR 올리기 전 두 가지 꼭 하기 
+    - 코드 정렬: `Ctrl`+`Alt`+`L`
+    - 불필요한 import 제거: `Ctrl`+`Alt`+`O`(알파벳 O)
+4. **Collection 변수는 `변수명` + `Collection 타입`**
+    - List<Keyword> keywordList (**O**)
+    - List<Keyword> keywords (**X**)
+5. 주석은 `//` 만 사용하기
+6. DTO 명명 시 유의 사항 
+    
+    Request, Response 각각 따로 작성하기 
+
+    예시)
+    - CreateUserRequestDto
+    - ReadUserResponseDto
+    - UpdateUserResponseDto
+
+7. API 명명 시 유의 사항
+
+   - 자바 컨벤션 따르기(카멜케이스)
+   - 줄임말 사용 금지
+
+8. ERD 명명 시 유의 사항
+    - 카멜케이스 대신 언더바 사용하기
+    - 줄임말 금지
+    - 스프링에서 자바컨벤션 따르면 자동으로 스네이크 케이스로 바꿔줌
 
 ### 커밋 컨벤션
 
@@ -186,6 +232,38 @@ Notion: [프로젝트 노션 링크](https://www.notion.so/teamsparta/2402dc3ef5
 
 <br>
 
+### Pull Request for 코드 리뷰
+
+1. Pull Request Template 사용하기
+    
+2. Pull Request Template 작성 시 유의 사항
+    - 팀장님 포함 리뷰어를 전체로 지목하기 (단, 바쁘면 융통성 발휘하기)
+    - 최소 단위로 commit 및 push하기
+    - 최소 단위로 PR 하기
+3. PR 전에 반드시 Postman 실행하여 잘 작동하는지 테스트하기
+4. 최소 단위가 헷갈릴 때는 ‘검토할 상대방에게 부담되지 않는가?’ 스스로 질문하고 PR 올리기 
+5. PR이 지연되면, `dev`에서 새 브랜치를 생성한 다음 직전 브랜치를 `pull`하기
+
+### branch
+
+1. `release` + 버전(메인.마이너.픽스) → 배포 브랜치
+2. `dev` → 개발 테스트 브랜치
+3. 형식
+    
+    ```java
+    ex. 기능 추가: feat/{기능 설명}
+    ex. 버그 수정: fix/{짧은 설명}
+    ex. 문서 관리: docs/readme
+    ex. 리팩토링:  refactor/{리팩터링 짧은 설명}
+    ex. 테스트 코드: test/{짧은 설명}
+    ```
+    
+4. **추가로 설명을 써야 할 때에는 하이픈(-) 사용하기** 
+    - 하이픈 (hypen) (-) (**O**)
+    - 언더바 (under bar) (_) (**X**)
+    - 대시 (dash) (—) (**X**)
+
+
 <!-- Top Button -->
 <p style='background: black; width: 32px; height: 32px; border-radius: 50%; display: flex; justify-content: center; align-items: center; margin-left: auto;'><a href="#top" style='color: white; '>▲</a></p>
 
@@ -195,52 +273,43 @@ Notion: [프로젝트 노션 링크](https://www.notion.so/teamsparta/2402dc3ef5
 
 > 브랜치
 
-- `main`:
-- `dev`:
+- `main`: 배포용 브랜치
+- `dev`: 개발용 브랜치
 -
 
 <br>
 
-(** 모든인원 작성 - 토글 안에 디렉토리구조 작성 부탁드립니다)
-
-> 디렉토리 구조
-
-```
-📂 App
-├── 📂 src
-│   ├── 📂 components      # 컴포넌트 관련 파일
-│   ├── 📂 pages           # 페이지 파일
-│   ├── 📂 redux           # Redux 상태 관리 파일
-│   ├── 📂 utils           # 유틸리티 파일
-│   └── 📄 App.js          # 메인 App 컴포넌트
-├── 📂 public
-│   ├── 📄 index.html      # HTML 엔트리 파일
-│   └── 📄 favicon.ico     # 사이트 아이콘
-└── 📄 package.json        # 프로젝트 종속성 및 설정 파일
-
-```
-
 
 > 배송 도메인 디렉토리 구조
 
 ```
-📂 App
-├── 📂 src
-│   ├── 📂 components      # 컴포넌트 관련 파일
-│   ├── 📂 pages           # 페이지 파일
-│   ├── 📂 redux           # Redux 상태 관리 파일
-│   ├── 📂 utils           # 유틸리티 파일
-│   └── 📄 App.js          # 메인 App 컴포넌트
-├── 📂 public
-│   ├── 📄 index.html      # HTML 엔트리 파일
-│   └── 📄 favicon.ico     # 사이트 아이콘
-└── 📄 package.json        # 프로젝트 종속성 및 설정 파일
+📂 delivery/src
+├── 📂 main
+│   ├── 📂 java/com/tf4/delivery     
+│   │   ├── 📂 common                   # 공통 유틸, 예외 처리, 설정 클래스
+│   │   │   ├── 📂 config               # 애플리케이션 전역 설정 
+│   │   │   └── 📂 event                # 이벤트 관련 클래스
+│   │   ├── 📂 controller               # 컨트롤러 계층
+│   │   ├── 📂 dto                      # 데이터 전송 객체 
+│   │   │   ├── 📂 request              # 요청 DTO
+│   │   │   └── 📂 response             # 응답 DTO     
+│   │   ├── 📂 entity                   # JPA 엔티티 클래스
+│   │   ├── 📂 repository               # 데이터 접근 계층
+│   │   │   ├── 📂 feign                # 외부 서비스 연동용 인터페이스
+│   │   │   └── 📂 jpa                  # JPA Repository 인터페이스
+│   │   ├── 📂 service                  # 비즈니스 로직 계층
+│   │   ├── 📂 sepc                     # 검색 조건 클래스
+│   │   └── 📄 DeliveryApplication.java # 메인 App
+│   └── 📂 resources                    
+│       └── 📄 application.yml          # 설정 파일
+├── 📂 test                             # 테스트 코드 
+└── 📄 build.gradle                     # 프로젝트 종속성 및 빌드 설정 파일
 
 ```
 
+<br>
 
-
-> 배송 도메인 디렉토리 구조
+> 상품 / 주문 도메인 디렉토리 구조
 
 <details>
 <summary>Order</summary>
@@ -258,6 +327,11 @@ Notion: [프로젝트 노션 링크](https://www.notion.so/teamsparta/2402dc3ef5
 
 <br>
 
+> ff 도메인 디렉토리 구조
+
+
+<br>
+
 <!-- Top Button -->
 <p style='background: black; width: 32px; height: 32px; border-radius: 50%; display: flex; justify-content: center; align-items: center; margin-left: auto;'><a href="#top" style='color: white; '>▲</a></p>
 
@@ -267,6 +341,7 @@ Notion: [프로젝트 노션 링크](https://www.notion.so/teamsparta/2402dc3ef5
 ![인프라 설계 (1)](https://github.com/user-attachments/assets/38608894-f9ec-45b5-bdd1-d9123bdebf57)
 
 
+<br>
 <!-- Top Button -->
 <p style='background: black; width: 32px; height: 32px; border-radius: 50%; display: flex; justify-content: center; align-items: center; margin-left: auto;'><a href="#top" style='color: white; '>▲</a></p>
 
@@ -275,6 +350,8 @@ Notion: [프로젝트 노션 링크](https://www.notion.so/teamsparta/2402dc3ef5
 
 <img width="3080" height="2522" alt="MSA-DeliverySystem" src="https://github.com/user-attachments/assets/49ce7366-15aa-4df1-8baf-9a269dc86d7e" />
 
+<br>
+
 <!-- Top Button -->
 <p style='background: black; width: 32px; height: 32px; border-radius: 50%; display: flex; justify-content: center; align-items: center; margin-left: auto;'><a href="#top" style='color: white; '>▲</a></p>
 
@@ -282,9 +359,10 @@ Notion: [프로젝트 노션 링크](https://www.notion.so/teamsparta/2402dc3ef5
 
 ## <span id="10">10. 💻 주요 기능 소개</span>
 
-프로젝트의 주요 기능을 GIF를 첨부하여 설명해주세요.
+프로젝트의 주요 기능을 GIF를 첨부하여 설명해주세요. 
+(와이어프레임 대표 이미지 추가 예정)
 
-### 8) 주문
+### 주문
 
 | 기능                   | 메서드    | 엔드포인트                         | Query Params     | status |
 |----------------------|--------|-------------------------------|------------------|--------|
@@ -296,7 +374,7 @@ Notion: [프로젝트 노션 링크](https://www.notion.so/teamsparta/2402dc3ef5
 | 주문 취소                | PATCH  | /orders/{orderId}/cancel      |                  | 204    |
 | 주문 삭제                | DELETE | /orders/{orderId}             |                  | 200    |
 
-### 9) 상품
+### 상품
 
 | 기능                      | 메서드    | 엔드포인트                           | Query Params                  | status |
 |-------------------------|--------|---------------------------------|-------------------------------|--------|
@@ -811,6 +889,24 @@ Notion: [프로젝트 노션 링크](https://www.notion.so/teamsparta/2402dc3ef5
 - 각 기능의 최적화나 고도화를 진행하지 못한 점도 개선할 필요가 있다.
 - 다음 프로젝트에서는 설계 단계에서 서비스의 전체적인 도메인에 대한 이해를 충분한 회의나 지식 공유등을 통해 정리하고 가는 것이 좋을 것 같다.
 
+### 황선영
+
+ 프로젝트 협업 과정에서 GitHub의 PR과 브랜치 전략을 직접 사용해 보며 협업 방식을 익힐 수 있었고, 팀원분들이 적극적으로 피드백과 의견을 주셔서 많은 것을 배울 수 있었습니다! 허브 서비스를 맡아 개발하면서 Naver Maps API를 연동해 실시간 경로 탐색 및 저장 기능을 구현했는데, 이 과정에서 외부 API를 다루는 방법을 조금이나마 배울 수 있었습니다. 다만 메시지 큐를 활용한 비동기 처리나 모니터링 시스템 구축 등 시간이 부족해서 시도하지 못한 부분이 많아서 아쉬웠습니다.
+
+### 정성운
+
+ 외부 API를 사용하기 위해 문서를 읽고 분석하는 능력을 키울 수 있었고, 받은 데이터를 가공하는 과정에서 데이터의 사용성과 로직 구성의 개선 방안을 더 생각하는 계기가 됐습니다. 팀원들이 서로 요청하고 협의하는 과정에서 모듈 간의 구성을 알 수 있었습니다.  다만 아쉬운 점은 초기 설계의 유동성과 자유성이 조금 더 있었더라면 시도해보고 싶은 부분이 있었는데 하지 못 했고, 더 많은 회의를 통해 서로의 생각을 더 잘 반영해 개발했더라면 좋았을 것 같습니다. 설계의 중요성을 다시 한 번 깨달았습니다.
+
+### 이다예
+
+팀장을 제대로 처음 맡아보는데 일정관리가 중요하다는 것을 몸소..! 깨달았습니다. 기획할때 각 단계마다 왜 이런 단계를 거쳐야만 하는지 명확하게 알게되는 경험이였고, MSA구조로 프로젝트를 하다보니 모놀리식에서는 겪을 수 없거나 예상치 못한 부분에서 에러를 경험했습니다. 그동안 몰랐던 부분에 대해서 확실하게 알게돼서 좋았습니다. 다음에는 좀 더 심화된 부분을 꼭 경험 할 수 있게 부지런히 공부해야겠다 싶습니다. 
+
+### 이강혁
+
+MSA 환경에서 인증/인가, 서비스 간 통신, 도메인 권한 정책, 전역 예외 표준화 등을 직접 설계·구현하며 많은 것을 배웠다. 사용자 헤더 주입 폴백 전략과 per-request 캐시 최적화, JPA 감사/소프트 삭제 패턴을 적용해 안정성과 운영 편의성을 동시에 경험했다. 다만 아직 역량이 부족해 Redis 또는 메시지 큐(Kafka 등)와 같은 기술을 실서비스에 적용해 보지 못한 점이 아쉬웠다.
+
+
+
 
 
 
@@ -838,7 +934,5 @@ $ yarn dev
 
 <br> -->
 
-
-
-참고링크(추후 삭제 예정)
-https://mynamesieun.github.io/git/GitHub-README.md-%EC%9E%91%EC%84%B1-%EA%B0%80%EC%9D%B4%EB%93%9C/
+<!--참고링크
+https://mynamesieun.github.io/git/GitHub-README.md-%EC%9E%91%EC%84%B1-%EA%B0%80%EC%9D%B4%EB%93%9C/ -->
