@@ -68,6 +68,8 @@ Notion: [프로젝트 노션 링크](https://www.notion.so/teamsparta/2402dc3ef5
 <img width="100" height="100" alt="185685157" src="https://github.com/user-attachments/assets/77ada5b7-1fdd-4ccf-b379-ecebb0f3f756" />
 <img width="100" height="100" alt="33851859" src="https://github.com/user-attachments/assets/ab692188-3580-4bee-aa0a-c8aeba36c322" />
 <img width="100" height="100" alt="57593704" src="https://github.com/user-attachments/assets/d823ce17-0831-4fa5-ad2f-913d9e5f947e" /> 
+![110345442](https://github.com/user-attachments/assets/9083ca48-e3e8-4a97-97dd-51fc99406a91)![Uploading 110345442.jpeg…]()
+
 
 | <img src="https://img.shields.io/badge/Project_Leader-FF5733" /> | <img src="https://img.shields.io/badge/Documentation_Leader-%2310069F%20" /> |    |    |    |
 | :--------------------------------------------------------------: | :--------------------------------------------------------------: |  :--------------------------------------------------------------: |:--------------------------------------------------------------------------: | :-----------------------------------------------------------: |
